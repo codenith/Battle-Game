@@ -7,7 +7,7 @@ def clear_output():
     print('\n'*100)
 
 # Defining a funtion to implement the monster's attack strength
-# minimum attack strength = 12 and maximum attack strength = 20
+# minimum attack strength = 10 and maximum attack strength = 20
 
 
 def monster_attack_strength(min_attack, max_attack):
