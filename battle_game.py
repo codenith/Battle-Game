@@ -85,7 +85,7 @@ while game_on:
                 if player['health'] <= 0:
                     monster_won = True
 
-        # Healing
+        # Healing the player
 
         elif option == 2:
 
