@@ -79,7 +79,7 @@ while game_on:
             if monster['health'] <= 0:
                 player_won = True
             else:
-                # Monster fights back
+                # Monster fights back the player
                 player['health'] -= monster_attack_strength(
                     monster['attack_min'], monster['attack_max'])
                 if player['health'] <= 0:
